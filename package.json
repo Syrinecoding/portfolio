@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Syrine Snoussi's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/main.scss:./css/style.css"
+  },
+  "keywords": [
+    "portfolio",
+    "web",
+    "developer"
+  ],
+  "author": "Syrine Snoussi",
+  "license": "ISC"
+}

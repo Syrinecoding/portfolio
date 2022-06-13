@@ -1,0 +1,27 @@
+
+@keyframes typing {
+   to {
+       left: 100%;
+   } 
+}
+.progress {
+    font-size: 70px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 100px auto;
+    position: relative;
+    outline: 2px solid cornsilk;
+    width: max-content;
+}
+.progress::before,
+.progress::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.progress::before {
+    background: cornsilk;
+    animation: typing 6s steps(20) infinite;
+}

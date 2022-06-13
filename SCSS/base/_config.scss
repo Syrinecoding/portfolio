@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: cornsilk;
+}
+a {
+    text-decoration: none;
+}
+
+// main {
+//     width: 100%;
+//     background: cornsilk;
+// }
+
+img { 
+    display: block;
+}
+
+.wrapper {
+    max-width: 2000px;
+    margin: 0 auto;
+}
